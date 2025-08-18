@@ -1,5 +1,5 @@
 // src/api.js
-const BASE_URL = "http://localhost:8080";
+const BASE_URL = "https://cashcard-backend.onrender.com";
 
 // Helper to create the HTTP Basic Auth header
 function getAuthHeader(username, password) {
