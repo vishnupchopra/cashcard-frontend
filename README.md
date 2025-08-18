@@ -1,70 +1,81 @@
-# Getting Started with Create React App
+# CashCard Frontend
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This repository contains the **React-based frontend** for the CashCard Portal — a simple web app to manage digital cash cards for family members.
 
-## Available Scripts
+## Features
 
-In the project directory, you can run:
+- Responsive single-page application built with React and Material-UI
+- User authentication with Basic Auth
+- List, add, edit, delete cash cards
+- Search and sort cash cards
+- Supports dark theme with futuristic UI design
+- Easily configurable backend API URL
 
-### `npm start`
+## Getting Started
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+### Prerequisites
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+- Node.js (>=16.x recommended)
+- npm or yarn
 
-### `npm test`
+### Installation
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+1. Clone the repo:
 
-### `npm run build`
+git clone https://github.com/your-username/cashcard-frontend.git
+cd cashcard-frontend
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+text
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+2. Install dependencies:
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+npm install
 
-### `npm run eject`
+or
+yarn install
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+text
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+### Running Locally
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+Start the development server:
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+npm start
 
-## Learn More
+or
+yarn start
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+text
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+It will start on [http://localhost:3000](http://localhost:3000).
 
-### Code Splitting
+### Configuration
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+The frontend calls backend APIs configured by the `REACT_APP_API_URL` environment variable.
 
-### Analyzing the Bundle Size
+- To set it locally, create a `.env` file in the root with:
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+REACT_APP_API_URL=http://localhost:8080
 
-### Making a Progressive Web App
+text
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+- When deploying (e.g., on Vercel), set the environment variable accordingly.
 
-### Advanced Configuration
+## Scripts
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+- `start` — Runs the app in development mode.
+- `build` — Builds the app for production (output in `/build`).
+- `test` — Runs tests.
+- `eject` — Ejects from Create React App (use cautiously).
 
-### Deployment
+## Deployment
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+This app is ready for deployment on static hosts such as **Vercel**, **Netlify**, or any static hosting service. Use the build output directory `/build`.
 
-### `npm run build` fails to minify
+## License
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+MIT License
+
+---
+
+# `cashcard-backend` README
