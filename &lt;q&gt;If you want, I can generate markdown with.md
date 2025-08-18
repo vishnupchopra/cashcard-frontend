@@ -1,16 +1,4 @@
-<img src="https://r2cdn.perplexity.ai/pplx-full-logo-primary-dark%402x.png" style="height:64px;margin-right:32px"/>
 
-# <q>If you want, I can generate markdown with badges, contribution guidelines, or sample CURL commands — just ask!</q> yes
-
-Absolutely! Below are **enhanced README sections** for both your frontend and backend repos. These add:
-
-- Shields.io badges
-- Contribution guidelines
-- Sample cURL commands for backend usage
-
-You can copy and append/add these to your existing README files.
-
-***
 
 # cashcard-frontend README ENHANCEMENTS
 
